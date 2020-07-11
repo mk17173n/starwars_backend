@@ -5,6 +5,7 @@ class CreateCharacters < ActiveRecord::Migration[6.0]
       t.string :image
       t.string :characterdescription
       t.integer :likes
+      t.integer :actor_id
       t.timestamps
     end
   end
